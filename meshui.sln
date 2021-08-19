@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meshui", "meshui\meshui.csproj", "{1685DE9E-613B-43AC-816D-992BC7FBD571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meshapp", "meshapp\meshapp.csproj", "{7E744AB6-060A-40B2-9B33-27C49D86E0E8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3DF0920A-9CBA-4FFD-968E-8207A0B4E896}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1685DE9E-613B-43AC-816D-992BC7FBD571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1685DE9E-613B-43AC-816D-992BC7FBD571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1685DE9E-613B-43AC-816D-992BC7FBD571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1685DE9E-613B-43AC-816D-992BC7FBD571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E744AB6-060A-40B2-9B33-27C49D86E0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E744AB6-060A-40B2-9B33-27C49D86E0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E744AB6-060A-40B2-9B33-27C49D86E0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E744AB6-060A-40B2-9B33-27C49D86E0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF0920A-9CBA-4FFD-968E-8207A0B4E896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF0920A-9CBA-4FFD-968E-8207A0B4E896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF0920A-9CBA-4FFD-968E-8207A0B4E896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF0920A-9CBA-4FFD-968E-8207A0B4E896}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B4B9666-2B66-475B-8271-CA489C52934C}
+	EndGlobalSection
+EndGlobal

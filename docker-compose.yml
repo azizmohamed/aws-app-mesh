@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  meshui:
+    image: ${DOCKER_REGISTRY-}meshui
+    build:
+      context: .
+      dockerfile: meshui/Dockerfile
+    environment: 
+      - MeshAppUrl=http://meshapp:80/
+      - Color="Red"
+  meshapp:
+    image: ${DOCKER_REGISTRY-}meshapp
+    build:
+      context: .
+      dockerfile: meshapp/Dockerfile
+    ports:
+      - "9090:80"
+    environment: 
+      - Color=Red
+
